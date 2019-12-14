@@ -6,8 +6,6 @@ import org.openqa.selenium.WebElement;
 
 public class TravelsLogin extends BasicPage {
 
-	//private By email = By.cssSelector("[type='text']");
-	//private By password = By.cssSelector("[type='password']");
 	private By email = By.name("email");
 	private By password = By.name("password");
 	private By rememberMe = By.cssSelector("ins.iCheck-helper");

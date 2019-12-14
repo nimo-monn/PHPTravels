@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.Select;
 
 public class TravelsCustomer extends BasicPage {
 
-	//private By accounts = By.cssSelector(".fa.fa-user-circle");
 	private By accounts = By.cssSelector("#social-sidebar-menu > li:nth-child(5) > a > i");
 	private By customers = By.cssSelector("#ACCOUNTS > li:nth-child(3) > a");
 	private By editCustomer = By.cssSelector(".btn.btn-default.btn-xcrud.btn.btn-warning");

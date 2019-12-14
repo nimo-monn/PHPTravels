@@ -9,7 +9,6 @@ import org.openqa.selenium.WebElement;
 
 public class TravelsCars extends BasicPage {
 
-	//private By tabel = By.cssSelector("#content > div.panel.panel-default > div.panel-body tbody");
 	private List<WebElement> rows = driver.findElements(By.className("xcrud-row"));
 	
 	public TravelsCars(WebDriver driver) 

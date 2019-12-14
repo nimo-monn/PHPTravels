@@ -20,11 +20,6 @@ public class TravelsExcel {
 		wb = new XSSFWorkbook(fis);
 		sheet = wb.getSheetAt(0);
 		
-//		String[] userpass = new String[2];
-//		userpass[0] = sheet.getRow(1).getCell(0).getStringCellValue();
-//		userpass[1] = sheet.getRow(1).getCell(1).getStringCellValue();
-//		return userpass;
-		
 	}
 	
 	public String getUsername()
