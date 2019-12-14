@@ -1,37 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" ignored="0" total="6" passed="3">
+<testng-results skipped="0" failed="3" ignored="0" total="15" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="142909" started-at="2019-12-14T01:25:58 CET" finished-at="2019-12-14T01:28:21 CET">
+  <suite name="Default suite" duration-ms="215197" started-at="2019-12-14T22:36:13 CET" finished-at="2019-12-14T22:39:48 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="142909" started-at="2019-12-14T01:25:58 CET" finished-at="2019-12-14T01:28:21 CET">
+    <test name="Default test" duration-ms="215197" started-at="2019-12-14T22:36:13 CET" finished-at="2019-12-14T22:39:48 CET">
       <class name="tests.PHPTravelsTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PHPTravelsTest@5c5a1b69]" name="setup" is-config="true" duration-ms="9715" started-at="2019-12-14T01:25:58 CET" finished-at="2019-12-14T01:26:08 CET">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.PHPTravelsTest@627551fb]" name="setup" is-config="true" duration-ms="10546" started-at="2019-12-14T22:36:13 CET" finished-at="2019-12-14T22:36:24 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:tests.PHPTravelsTest@5c5a1b69]" name="login" duration-ms="15055" started-at="2019-12-14T01:26:08 CET" finished-at="2019-12-14T01:26:23 CET">
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.PHPTravelsTest@627551fb]" name="login" duration-ms="20654" started-at="2019-12-14T22:36:24 CET" finished-at="2019-12-14T22:36:44 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="menu()[pri:1, instance:tests.PHPTravelsTest@5c5a1b69]" name="menu" duration-ms="52749" started-at="2019-12-14T01:26:23 CET" finished-at="2019-12-14T01:27:16 CET">
+        <test-method status="PASS" signature="menuUpdates()[pri:1, instance:tests.PHPTravelsTest@627551fb]" name="menuUpdates" duration-ms="10106" started-at="2019-12-14T22:36:44 CET" finished-at="2019-12-14T22:36:55 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- menu -->
-        <test-method status="FAIL" signature="cars()[pri:5, instance:tests.PHPTravelsTest@5c5a1b69]" name="cars" duration-ms="10540" started-at="2019-12-14T01:27:16 CET" finished-at="2019-12-14T01:27:26 CET">
+        </test-method> <!-- menuUpdates -->
+        <test-method status="PASS" signature="menuDashboard()[pri:2, instance:tests.PHPTravelsTest@627551fb]" name="menuDashboard" duration-ms="8011" started-at="2019-12-14T22:36:55 CET" finished-at="2019-12-14T22:37:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuDashboard -->
+        <test-method status="PASS" signature="menuModules()[pri:3, instance:tests.PHPTravelsTest@627551fb]" name="menuModules" duration-ms="6500" started-at="2019-12-14T22:37:03 CET" finished-at="2019-12-14T22:37:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuModules -->
+        <test-method status="PASS" signature="menuNewTours()[pri:4, instance:tests.PHPTravelsTest@627551fb]" name="menuNewTours" duration-ms="9378" started-at="2019-12-14T22:37:09 CET" finished-at="2019-12-14T22:37:18 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuNewTours -->
+        <test-method status="PASS" signature="menuCars()[pri:5, instance:tests.PHPTravelsTest@627551fb]" name="menuCars" duration-ms="11375" started-at="2019-12-14T22:37:18 CET" finished-at="2019-12-14T22:37:30 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuCars -->
+        <test-method status="PASS" signature="menuCoupons()[pri:6, instance:tests.PHPTravelsTest@627551fb]" name="menuCoupons" duration-ms="7082" started-at="2019-12-14T22:37:30 CET" finished-at="2019-12-14T22:37:37 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuCoupons -->
+        <test-method status="PASS" signature="menuNewsletter()[pri:7, instance:tests.PHPTravelsTest@627551fb]" name="menuNewsletter" duration-ms="6337" started-at="2019-12-14T22:37:37 CET" finished-at="2019-12-14T22:37:43 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuNewsletter -->
+        <test-method status="PASS" signature="menuBookings()[pri:8, instance:tests.PHPTravelsTest@627551fb]" name="menuBookings" duration-ms="6473" started-at="2019-12-14T22:37:43 CET" finished-at="2019-12-14T22:37:50 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuBookings -->
+        <test-method status="FAIL" signature="cars()[pri:9, instance:tests.PHPTravelsTest@627551fb]" name="cars" duration-ms="14432" started-at="2019-12-14T22:37:50 CET" finished-at="2019-12-14T22:38:04 CET">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [10] but found [37]]]>
+              <![CDATA[expected [10] but found [40]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [10] but found [37]
+              <![CDATA[java.lang.AssertionError: expected [10] but found [40]
 at org.testng.Assert.fail(Assert.java:97)
 at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:839)
 at org.testng.Assert.assertEquals(Assert.java:849)
-at tests.PHPTravelsTest.cars(PHPTravelsTest.java:70)
+at tests.PHPTravelsTest.cars(PHPTravelsTest.java:132)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -66,11 +94,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cars -->
-        <test-method status="PASS" signature="ordersCount()[pri:6, instance:tests.PHPTravelsTest@5c5a1b69]" name="ordersCount" duration-ms="9262" started-at="2019-12-14T01:27:26 CET" finished-at="2019-12-14T01:27:35 CET">
+        <test-method status="PASS" signature="ordersCount()[pri:10, instance:tests.PHPTravelsTest@627551fb]" name="ordersCount" duration-ms="17532" started-at="2019-12-14T22:38:04 CET" finished-at="2019-12-14T22:38:22 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ordersCount -->
-        <test-method status="FAIL" signature="carsExtras()[pri:10, instance:tests.PHPTravelsTest@5c5a1b69]" name="carsExtras" duration-ms="18562" started-at="2019-12-14T01:27:35 CET" finished-at="2019-12-14T01:27:54 CET">
+        <test-method status="PASS" signature="carsExtras()[pri:11, instance:tests.PHPTravelsTest@627551fb]" name="carsExtras" duration-ms="33945" started-at="2019-12-14T22:38:22 CET" finished-at="2019-12-14T22:38:56 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsExtras -->
+        <test-method status="PASS" signature="carsExtrasImage()[pri:12, instance:tests.PHPTravelsTest@627551fb]" name="carsExtrasImage" duration-ms="2133" started-at="2019-12-14T22:38:56 CET" finished-at="2019-12-14T22:38:58 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carsExtrasImage -->
+        <test-method status="FAIL" signature="carsExtrasPrice()[pri:13, instance:tests.PHPTravelsTest@627551fb]" name="carsExtrasPrice" duration-ms="16352" started-at="2019-12-14T22:38:58 CET" finished-at="2019-12-14T22:39:14 CET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [35s00] but found [3500]]]>
@@ -82,7 +118,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at tests.PHPTravelsTest.carsExtras(PHPTravelsTest.java:101)
+at tests.PHPTravelsTest.carsExtrasPrice(PHPTravelsTest.java:193)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -116,8 +152,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- carsExtras -->
-        <test-method status="FAIL" signature="changeCustomers()[pri:15, instance:tests.PHPTravelsTest@5c5a1b69]" name="changeCustomers" duration-ms="26991" started-at="2019-12-14T01:27:54 CET" finished-at="2019-12-14T01:28:21 CET">
+        </test-method> <!-- carsExtrasPrice -->
+        <test-method status="FAIL" signature="changeCustomers()[pri:15, instance:tests.PHPTravelsTest@627551fb]" name="changeCustomers" duration-ms="34251" started-at="2019-12-14T22:39:14 CET" finished-at="2019-12-14T22:39:48 CET">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [mikamikic@gmail.com] but found [Entries not found.]]]>
@@ -129,7 +165,7 @@ at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 at org.testng.Assert.assertEquals(Assert.java:118)
 at org.testng.Assert.assertEquals(Assert.java:575)
 at org.testng.Assert.assertEquals(Assert.java:585)
-at tests.PHPTravelsTest.changeCustomers(PHPTravelsTest.java:114)
+at tests.PHPTravelsTest.changeCustomers(PHPTravelsTest.java:203)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -164,7 +200,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- changeCustomers -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:tests.PHPTravelsTest@5c5a1b69]" name="quit" is-config="true" duration-ms="0" started-at="2019-12-14T01:28:21 CET" finished-at="2019-12-14T01:28:21 CET">
+        <test-method status="PASS" signature="quit()[pri:0, instance:tests.PHPTravelsTest@627551fb]" name="quit" is-config="true" duration-ms="0" started-at="2019-12-14T22:39:48 CET" finished-at="2019-12-14T22:39:48 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

@@ -5,7 +5,7 @@
     <classes>
       <class name="tests.PHPTravelsTest">
         <methods>
-          <include name="carsExtras"/>
+          <include name="carsExtrasPrice"/>
           <include name="changeCustomers"/>
           <include name="quit"/>
           <include name="setup"/>

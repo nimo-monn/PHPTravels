@@ -52,5 +52,10 @@ public class TravelsLogin extends BasicPage {
 		this.setRememberMe();
 		this.clickOnLoginBtn();
 	}
+	
+	public String getMainTitle() 
+	{
+		return this.driver.getTitle();
+	}
 
 }

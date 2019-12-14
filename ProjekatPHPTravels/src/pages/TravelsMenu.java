@@ -83,5 +83,10 @@ public class TravelsMenu extends BasicPage {
 		this.getCars();
 		this.getCarsSubMenu();
 	}
+	
+	public String getMainTitle() 
+	{
+		return this.driver.getTitle();
+	}
 
 }

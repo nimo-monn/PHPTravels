@@ -9,17 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">142,909</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Default test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">3</td><td class="num">215,197</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.PHPTravelsTest</td><td><a href="#m0">cars</a></td><td rowspan="1">1576283236047</td><td rowspan="1">10540</td></tr><tr class="failedeven"><td><a href="#m1">carsExtras</a></td><td rowspan="1">1576283255852</td><td rowspan="1">18562</td></tr><tr class="failedeven"><td><a href="#m2">changeCustomers</a></td><td rowspan="1">1576283274415</td><td rowspan="1">26991</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">tests.PHPTravelsTest</td><td><a href="#m3">login</a></td><td rowspan="1">1576283168239</td><td rowspan="1">15055</td></tr><tr class="passedeven"><td><a href="#m4">menu</a></td><td rowspan="1">1576283183298</td><td rowspan="1">52749</td></tr><tr class="passedeven"><td><a href="#m5">ordersCount</a></td><td rowspan="1">1576283246589</td><td rowspan="1">9262</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="3">tests.PHPTravelsTest</td><td><a href="#m0">cars</a></td><td rowspan="1">1576359470265</td><td rowspan="1">14432</td></tr><tr class="failedeven"><td><a href="#m1">carsExtrasPrice</a></td><td rowspan="1">1576359538318</td><td rowspan="1">16352</td></tr><tr class="failedeven"><td><a href="#m2">changeCustomers</a></td><td rowspan="1">1576359554671</td><td rowspan="1">34251</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="12">tests.PHPTravelsTest</td><td><a href="#m3">carsExtras</a></td><td rowspan="1">1576359502236</td><td rowspan="1">33945</td></tr><tr class="passedeven"><td><a href="#m4">carsExtrasImage</a></td><td rowspan="1">1576359536181</td><td rowspan="1">2133</td></tr><tr class="passedeven"><td><a href="#m5">login</a></td><td rowspan="1">1576359384311</td><td rowspan="1">20654</td></tr><tr class="passedeven"><td><a href="#m6">menuBookings</a></td><td rowspan="1">1576359463788</td><td rowspan="1">6473</td></tr><tr class="passedeven"><td><a href="#m7">menuCars</a></td><td rowspan="1">1576359438989</td><td rowspan="1">11375</td></tr><tr class="passedeven"><td><a href="#m8">menuCoupons</a></td><td rowspan="1">1576359450364</td><td rowspan="1">7082</td></tr><tr class="passedeven"><td><a href="#m9">menuDashboard</a></td><td rowspan="1">1576359415095</td><td rowspan="1">8011</td></tr><tr class="passedeven"><td><a href="#m10">menuModules</a></td><td rowspan="1">1576359423106</td><td rowspan="1">6500</td></tr><tr class="passedeven"><td><a href="#m11">menuNewTours</a></td><td rowspan="1">1576359429611</td><td rowspan="1">9378</td></tr><tr class="passedeven"><td><a href="#m12">menuNewsletter</a></td><td rowspan="1">1576359457446</td><td rowspan="1">6337</td></tr><tr class="passedeven"><td><a href="#m13">menuUpdates</a></td><td rowspan="1">1576359404982</td><td rowspan="1">10106</td></tr><tr class="passedeven"><td><a href="#m14">ordersCount</a></td><td rowspan="1">1576359484704</td><td rowspan="1">17532</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">tests.PHPTravelsTest#cars</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [10] but found [37]
+<h2>Default test</h2><h3 id="m0">tests.PHPTravelsTest#cars</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [10] but found [40]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:839)
 	at org.testng.Assert.assertEquals(Assert.java:849)
-	at tests.PHPTravelsTest.cars(PHPTravelsTest.java:70)
+	at tests.PHPTravelsTest.cars(PHPTravelsTest.java:132)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -49,13 +49,13 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">tests.PHPTravelsTest#carsExtras</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [35s00] but found [3500]
+<h3 id="m1">tests.PHPTravelsTest#carsExtrasPrice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [35s00] but found [3500]
 	at org.testng.Assert.fail(Assert.java:97)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:575)
 	at org.testng.Assert.assertEquals(Assert.java:585)
-	at tests.PHPTravelsTest.carsExtras(PHPTravelsTest.java:101)
+	at tests.PHPTravelsTest.carsExtrasPrice(PHPTravelsTest.java:193)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -91,7 +91,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:118)
 	at org.testng.Assert.assertEquals(Assert.java:575)
 	at org.testng.Assert.assertEquals(Assert.java:585)
-	at tests.PHPTravelsTest.changeCustomers(PHPTravelsTest.java:114)
+	at tests.PHPTravelsTest.changeCustomers(PHPTravelsTest.java:203)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -121,8 +121,17 @@
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">tests.PHPTravelsTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">tests.PHPTravelsTest#menu</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">tests.PHPTravelsTest#ordersCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">tests.PHPTravelsTest#carsExtras</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">tests.PHPTravelsTest#carsExtrasImage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">tests.PHPTravelsTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">tests.PHPTravelsTest#menuBookings</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">tests.PHPTravelsTest#menuCars</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">tests.PHPTravelsTest#menuCoupons</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">tests.PHPTravelsTest#menuDashboard</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">tests.PHPTravelsTest#menuModules</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">tests.PHPTravelsTest#menuNewTours</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">tests.PHPTravelsTest#menuNewsletter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">tests.PHPTravelsTest#menuUpdates</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">tests.PHPTravelsTest#ordersCount</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
