@@ -1,5 +1,6 @@
 package pages;
 
+import java.io.File;
 import java.util.List;
 
 import org.openqa.selenium.By;
@@ -44,7 +45,7 @@ public class TravelsCarsExtras extends BasicPage {
 	
 	public void getAddImage(String path)
 	{
-		this.driver.findElement(this.addImage).sendKeys(path);
+		this.driver.findElement(this.addImage).sendKeys(new File(path).getAbsolutePath());
 	}
 	
 	public void getName(String name)

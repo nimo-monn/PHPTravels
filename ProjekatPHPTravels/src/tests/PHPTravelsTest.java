@@ -1,7 +1,5 @@
 package tests;
 
-import java.io.File;
-
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -156,7 +154,7 @@ public class PHPTravelsTest extends BasicTest {
 		Thread.sleep(2000);
 		tce.getAddBtn();
 		Thread.sleep(2000);
-		tce.getAddImage("C:\\Users\\Moni\\git\\ProjekatPHPTravels\\ProjekatPHPTravels\\bmw.jpg");
+		tce.getAddImage("bmw.jpg");
 		Thread.sleep(2000);
 		tce.getName("BMW");
 		Thread.sleep(2000);
